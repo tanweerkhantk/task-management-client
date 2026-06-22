@@ -59,7 +59,7 @@ const AddTask = () => {
         </select>
 
         <button disabled={loading}
-        className='w-full bg-indigo-600 text-white py-4 rounded-xl hover:bg-indigo-700 disabled:opacity-50'>
+        className='w-full bg-indigo-600 cursor-pointer text-white py-4 rounded-xl hover:bg-indigo-700 disabled:opacity-50'>
           { loading ? "Creating..." : "Create Task"}
         </button>
       </form>

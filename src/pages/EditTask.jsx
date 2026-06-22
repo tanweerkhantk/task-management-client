@@ -76,7 +76,7 @@ const EditTask = () => {
         </select>
 
         <button
-        className='w-full bg-green-600 text-white py-4 rounded-xl hover:bg-green-700'>
+        className='w-full bg-green-600 cursor-pointer text-white py-4 rounded-xl hover:bg-green-700'>
           Update Task
         </button>
       </form>
